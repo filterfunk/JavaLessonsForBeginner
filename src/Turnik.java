@@ -8,9 +8,9 @@ public class Turnik {
         System.out.print("Сколько ты подтянулся?");
         int count = scanner.nextInt();
         System.out.print("Сколько мечтаешь подтянуться?");
-        int final_count = scanner.nextInt();
-        if (count < final_count) {
-            System.out.print("Давай ещё " + (final_count - count));
+        int finalСount = scanner.nextInt();
+        if (count < finalСount) {
+            System.out.print("Давай ещё " + (finalСount - count));
         } else {
             System.out.print("Красава");
         }
